@@ -1,0 +1,14 @@
+Time resolution is 1 ps
+                   0 cnt_reg = xxxxxxxx, reset_n = 1
+                  10 cnt_reg = 00000000, reset_n = 0
+                  15 cnt_reg = 00000001, reset_n = 1
+                  25 cnt_reg = 00000010, reset_n = 1
+                  35 cnt_reg = 00000011, reset_n = 1
+                  45 cnt_reg = 00000100, reset_n = 1
+                  55 cnt_reg = 00000101, reset_n = 1
+                  65 cnt_reg = 00000110, reset_n = 1
+                  75 cnt_reg = 00000111, reset_n = 1
+                  85 cnt_reg = 00001000, reset_n = 1
+                  95 cnt_reg = 00001001, reset_n = 1
+                 105 cnt_reg = 00001010, reset_n = 1
+$finish called at time : 115 ns : File "D:/digital_vlsi/counter/counter.srcs/sim_1/new/counter_tb.v" Line 22

@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/digital_vlsi/pci_arbitrator/pci_arbitrator.srcs/sources_1/new/pci_arbiter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pci_arbiter
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/digital_vlsi/pci_arbitrator/pci_arbitrator.srcs/sim_1/new/pci_arbiter_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pci_arbiter_tb

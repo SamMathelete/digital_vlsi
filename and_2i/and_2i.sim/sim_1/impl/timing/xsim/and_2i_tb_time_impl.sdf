@@ -1,0 +1,62 @@
+(DELAYFILE 
+(SDFVERSION "3.0" )
+(DESIGN "and_2i")
+(DATE "Fri May 17 14:31:55 2024")
+(VENDOR "XILINX")
+(PROGRAM "Vivado")
+(VERSION "2023.2")
+(DIVIDER /)
+(TIMESCALE 1ps)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE A_IBUF_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (721.9:852.4:852.4) (721.9:852.4:852.4))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE B_IBUF_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (765.5:896.3:896.3) (765.5:896.3:896.3))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE Y_OBUF_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2216.6:2384.4:2384.4) (2216.6:2384.4:2384.4))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT2")
+  (INSTANCE Y_OBUF_inst_i_1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I1 O (84.0:105.0:105.0) (84.0:105.0:105.0))
+      (IOPATH I0 O (84.0:105.0:105.0) (84.0:105.0:105.0))
+    )
+  )
+)
+(CELL 
+    (CELLTYPE "and_2i")
+    (INSTANCE )
+    (DELAY
+      (ABSOLUTE
+      (INTERCONNECT A_IBUF_inst/O Y_OBUF_inst_i_1/I0 (813.2:972.2:972.2) (813.2:972.2:972.2))
+      (INTERCONNECT B_IBUF_inst/O Y_OBUF_inst_i_1/I1 (568.8:670.8:670.8) (568.8:670.8:670.8))
+      (INTERCONNECT Y_OBUF_inst_i_1/O Y_OBUF_inst/I (1249.4:1378.4:1378.4) (1249.4:1378.4:1378.4))
+      )
+    )
+)
+)

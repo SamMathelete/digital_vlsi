@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/digital_vlsi/and_2i/and_2i.srcs/sources_1/new/and_2i.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module and_2i
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'Y' is not allowed [D:/digital_vlsi/and_2i/and_2i.srcs/sources_1/new/and_2i.v:28]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/digital_vlsi/and_2i/and_2i.srcs/sim_1/new/and_2i_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module and_2i_tb
