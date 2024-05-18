@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/digital_vlsi/DCTQ/DCTQ.srcs/sources_1/new/sa_rom.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sa_rom
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/digital_vlsi/DCTQ/DCTQ.srcs/sim_1/new/sa_rom_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sa_rom_tb

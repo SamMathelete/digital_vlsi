@@ -1,0 +1,9 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+D:/digital_vlsi/DCTQ/DCTQ.sim/sim_1/behav/xsim/glbl.v,1697210495,verilog,,,,glbl,,,,,,,,
+D:/digital_vlsi/DCTQ/DCTQ.srcs/sim_1/new/da_rom_tb.v,1716009858,verilog,,,,da_rom_tb,,,,,,,,
+D:/digital_vlsi/DCTQ/DCTQ.srcs/sim_1/new/sa_rom_tb.v,1716012865,verilog,,,,sa_rom_tb,,,,,,,,
+D:/digital_vlsi/DCTQ/DCTQ.srcs/sources_1/new/da_rom.v,1716010768,verilog,,D:/digital_vlsi/DCTQ/DCTQ.srcs/sim_1/new/da_rom_tb.v,,da_rom,,,,,,,,
+D:/digital_vlsi/DCTQ/DCTQ.srcs/sources_1/new/sa_rom.v,1716012632,verilog,,D:/digital_vlsi/DCTQ/DCTQ.srcs/sim_1/new/sa_rom_tb.v,,sa_rom,,,,,,,,

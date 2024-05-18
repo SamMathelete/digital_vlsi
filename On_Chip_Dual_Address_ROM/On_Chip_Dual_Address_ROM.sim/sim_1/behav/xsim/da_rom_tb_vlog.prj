@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../On_Chip_Dual_Address_ROM.srcs/sources_1/new/da_rom.v" \
+"../../../../On_Chip_Dual_Address_ROM.srcs/sim_1/new/da_rom_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
