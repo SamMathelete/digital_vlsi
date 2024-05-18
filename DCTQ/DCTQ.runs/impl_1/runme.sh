@@ -43,6 +43,6 @@ EAStep()
 
 # pre-commands:
 /bin/touch .init_design.begin.rst
-EAStep vivado -log da_rom.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source da_rom.tcl -notrace
+EAStep vivado -log dual_ram_rc.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source dual_ram_rc.tcl -notrace
 
 

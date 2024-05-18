@@ -1,15 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xa7a75tfgg484-2I" LaunchTime="1716010783" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/da_rom.dcp">
-  <File Type="PA-TCL" Name="da_rom.tcl"/>
-  <File Type="REPORTS-TCL" Name="da_rom_reports.tcl"/>
-  <File Type="RDS-RDS" Name="da_rom.vds"/>
-  <File Type="RDS-UTIL" Name="da_rom_utilization_synth.rpt"/>
-  <File Type="RDS-UTIL-PB" Name="da_rom_utilization_synth.pb"/>
-  <File Type="RDS-DCP" Name="da_rom.dcp"/>
+<GenRun Id="synth_1" LaunchPart="xa7a75tfgg484-2I" LaunchTime="1716025895" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/da_rom.dcp">
+  <File Type="PA-TCL" Name="dual_ram_rc.tcl"/>
+  <File Type="REPORTS-TCL" Name="dual_ram_rc_reports.tcl"/>
+  <File Type="RDS-RDS" Name="dual_ram_rc.vds"/>
+  <File Type="RDS-UTIL" Name="dual_ram_rc_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="dual_ram_rc_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="dual_ram_rc.dcp"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/../../verilog codes/ram_rc.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../verilog codes/dual_ram_rc.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/sa_rom.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <File Path="$PSRCDIR/sources_1/new/da_rom.v">
       <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -17,8 +40,7 @@
     </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="da_rom"/>
-      <Option Name="TopAutoSet" Val="TRUE"/>
+      <Option Name="TopModule" Val="dual_ram_rc"/>
     </Config>
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">

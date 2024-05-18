@@ -3,12 +3,12 @@
 # SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
 # IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
 # SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
-# Start of session at: Sat May 18 11:10:28 2024
-# Process ID: 4368
+# Start of session at: Sat May 18 15:22:33 2024
+# Process ID: 1324
 # Current directory: D:/digital_vlsi/DCTQ/DCTQ.runs/impl_1
-# Command line: vivado.exe -log da_rom.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source da_rom.tcl -notrace
-# Log file: D:/digital_vlsi/DCTQ/DCTQ.runs/impl_1/da_rom.vdi
+# Command line: vivado.exe -log dual_ram_rc.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source dual_ram_rc.tcl -notrace
+# Log file: D:/digital_vlsi/DCTQ/DCTQ.runs/impl_1/dual_ram_rc.vdi
 # Journal file: D:/digital_vlsi/DCTQ/DCTQ.runs/impl_1\vivado.jou
 # Running On: DESKTOP-2GKGU52, OS: Windows, CPU Frequency: 3800 MHz, CPU Physical cores: 12, Host memory: 17129 MB
 #-----------------------------------------------------------
-source da_rom.tcl -notrace
+source dual_ram_rc.tcl -notrace
